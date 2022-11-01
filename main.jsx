@@ -21,8 +21,8 @@ function ReviewCart() {
             </div>
         </div>
         <div className="control d-flex align-items-center justify-content-center gap-3">
-            <div> <i class="bi bi-arrow-left text-primary"></i> </div>
-            <div> <i class="bi bi-arrow-right text-primary"></i> </div>
+            <a href="#"> <i class="bi bi-arrow-left text-primary"></i> </a>
+            <a href="# "> <i class="bi bi-arrow-right text-primary"></i> </a>
         </div>
     </div>)
 }
