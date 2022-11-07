@@ -72,6 +72,22 @@ const App = () => {
             avatar:"http://4.bp.blogspot.com/-ViO9FsHLnv0/U1kh4fv4wMI/AAAAAAAAriY/nFeDAWRXDOA/s1600/0-change24h+(16).jpg",
             
 
+        },
+        {
+            id:3,
+            name:"Lạc Trôi",
+            path:"./component/music/lạc trôi.mp3",
+            avatar:"https://file.tinnhac.com/resize/600x-/music/2016/12/26/739173398104894536842293n1-cb0d.jpg",
+            
+
+        },
+        {
+            id:4,
+            name:"Còn lại gì sau cơn mưa",
+            path:"./component/music/bai hat 3.mp3",
+            avatar:"https://i1-giaitri.vnecdn.net/2019/03/20/ho-quang-hieu-13-1478659192-12-3785-5436-1553074552.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=GmkitPqTG3gwhzOdeI_hhg",
+            
+
         }
     ];
    
