@@ -125,10 +125,18 @@ const App = () => {
       ];
 
       return ( <div>
+        <HandlingEvent/>
         <UserList users={users} />
       </div>)
 
 };
+const HandlingEvent = () => {
+    const handleClick = (e,name) => {
+      console.log("clicked");
+      console.log(name);
+    };
+    return <button onClick={(e) => handleClick(e,"dat")}>click</button>
+  }
 
 const root = ReactDOM.createRoot(document.querySelector("#app"));
 

@@ -81,12 +81,19 @@ function App() {
         })}; */}
 
         {/* <User user={user}/> */}
+
         <h1 className="heading">Pokedex</h1>
         <PokemonList Pokemons = {Pokemons}/>
         
         
     </div>
 )}
+// const HandlingEvent = () => {
+//   const handleClick = (e) => {
+//     console.log("clicked");
+//   };
+//   return <button onClick={handleClick}>click</button>
+// }
 
 const root = ReactDOM.createRoot(document.querySelector("#app"));
 
