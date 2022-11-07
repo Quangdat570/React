@@ -14,7 +14,7 @@ const Media = ({ media, onPrev, onNext, onPlay, onPause, audioEle, isPlaying, se
                     </div>
                     <div className="col-6 d-flex justify-content-center align-items-center ">
                         <div className="controls d-flex justify-content-center align-items-center gap-4">
-                            <button className="btn-prev " onClick={onPrev}><i className="bi bi-skip-start"></i></button>
+                            <button className="btn-prev border-0" onClick={onPrev}><i className="bi bi-skip-start text-white"></i></button>
                             <div className="btn-toggle-play">
                            
                             {isPlaying ? <i onClick={PlayPause} className="bi bi-pause-fill text-white"/> 
@@ -22,7 +22,7 @@ const Media = ({ media, onPrev, onNext, onPlay, onPause, audioEle, isPlaying, se
                             
                             
                             </div>
-                            <button className="btn-next" onClick={onNext}><i className="bi bi-skip-end"></i></button>
+                            <button className="btn-next border-0" onClick={onNext}><i className="bi bi-skip-end text-white"></i></button>
                             {/* <audio controls src={media.path} type="audio/mpeg"></audio> */}
                         </div>
                     </div>
