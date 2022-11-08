@@ -4,7 +4,7 @@ function Hello() {
     return <h1 className="text-center mt-5">Our Reviews</h1>
 };
 
-function ReviewCart(review) {
+function ReviewCart() {
 
     return (<div className="review-cart w-75 m-auto ">
         <div className="review">
@@ -22,15 +22,15 @@ function ReviewCart(review) {
             </div>
         </div>
         <div className="control d-flex align-items-center justify-content-center gap-3">
-            <a href="#" onClick={increment}> <i className="bi bi-arrow-left text-primary"></i> </a>
+            <a href="#" > <i className="bi bi-arrow-left text-primary"></i> </a>
             <div></div>
-            <a href="# " onClick={decrement}> <i className="bi bi-arrow-right text-primary"></i> </a>
+            <a href="# "> <i className="bi bi-arrow-right text-primary"></i> </a>
         </div>
     </div>)
 }
 
 function App() {
-    const [index,setIndex] = React.useState(0);
+    
     const reviews = [
         {
             id: "f78ff93a2f6723ba714b938d",
@@ -113,20 +113,14 @@ function App() {
                 "Tempore quos minima accusamus quibusdam veniam quod. Nemo tempore exercitationem fuga nobis. Provident fugit pariatur repellat minima iusto vel natus sunt.",
         },
     ];
-    const review = reviews[index];
-    const increment = () => {
-        setIndex( index + 1);
-     
-     
- };
+    
  
- const decrement = () => {
-    setIndex((previousIndex) => previousIndex - 1);
- };
+ 
+ 
     return (
         <div>
             <Hello />
-            <ReviewCart/>
+            <ReviewCart />
             
             
         </div>
